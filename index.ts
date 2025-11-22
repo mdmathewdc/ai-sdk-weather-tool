@@ -30,8 +30,10 @@ const weatherAgent = new Agent({
   stopWhen: stepCountIs(20),
 });
 
-const result = await weatherAgent.generate({
+const stream = weatherAgent.stream({
   prompt: 'What is the weather in San Francisco in Celsius?',
 });
 
-console.log(result.text);
+for await (const chunk of stream.textStream) {
+  console.log(chunk);
+}
