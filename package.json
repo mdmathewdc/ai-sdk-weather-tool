@@ -1,0 +1,28 @@
+{
+  "name": "ai-sdk-weather-tool",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdmathewdc/ai-sdk-weather-tool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdmathewdc/ai-sdk-weather-tool/issues"
+  },
+  "homepage": "https://github.com/mdmathewdc/ai-sdk-weather-tool#readme",
+  "dependencies": {
+    "@ai-sdk/openai": "^2.0.71",
+    "ai": "^5.0.99",
+    "dotenv": "^17.2.3",
+    "tsx": "^4.20.6",
+    "zod": "^4.1.12"
+  }
+}
