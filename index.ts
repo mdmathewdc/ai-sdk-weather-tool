@@ -31,7 +31,7 @@ const weatherAgent = new Agent({
 });
 
 const result = await weatherAgent.generate({
-  prompt: 'What is the weather in San Francisco in celsius?',
+  prompt: 'What is the weather in San Francisco in Celsius?',
 });
 
 console.log(result.text);
